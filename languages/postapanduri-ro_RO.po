@@ -1,0 +1,781 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PostaPanduri\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-25 13:33+0300\n"
+"PO-Revision-Date: 2023-10-25 13:33+0300\n"
+"Language: ro_RO\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n==0 || (n!=1 && n%100>=1 && n%100<=19) ? 1 : 2);\n"
+"X-Generator: Poedit 3.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: postapanduri.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/admin/class-admin.php:282
+#, php-format
+msgid "The parcel was sent using <b>%s</b> service and received AWB no. <b>%s</b>"
+msgstr "Coletul a fost trimis prin intermediul serviciului <b>%s</b> și a primit AWB nr. <b>%s</b>"
+
+#: inc/admin/class-admin.php:349
+msgid "Tracking AWB"
+msgstr "Urmărire AWB"
+
+#: inc/admin/class-admin.php:462
+#: inc/front/class-front.php:243
+#: inc/front/class-front.php:266
+#: inc/front/class-front.php:312
+#: inc/front/partials/plugin-postapanduri-change-dp.php:32
+#: inc/front/partials/plugin-postapanduri-map.php:22
+msgid "Posta Romana"
+msgstr "Posta Romana"
+
+#: inc/admin/class-admin.php:464
+#: inc/front/class-front.php:245
+#: inc/front/class-front.php:268
+#: inc/front/class-front.php:314
+#: inc/front/partials/plugin-postapanduri-change-dp.php:34
+#: inc/front/partials/plugin-postapanduri-map.php:10
+msgid "PostaPanduri Smartlocker"
+msgstr "Pachetomat PostaPanduri"
+
+#: inc/admin/class-admin.php:467
+msgid "Address"
+msgstr "Adresa"
+
+#: inc/admin/class-admin.php:470
+msgid "Delivery point information"
+msgstr "Informații despre punctul de ridicare"
+
+#: inc/admin/class-admin.php:475
+msgid "Choose a shipping service"
+msgstr "Alegeți un serviciu de livrare"
+
+#: inc/admin/class-admin.php:481
+msgid "Delivery description"
+msgstr "Descrierea livrării"
+
+#: inc/admin/class-admin.php:485
+msgid "Sender reference"
+msgstr "Referință expeditor"
+
+#: inc/admin/class-admin.php:486
+msgid "Order no."
+msgstr "Nr. comandă"
+
+#: inc/admin/class-admin.php:489
+msgid "Declared value"
+msgstr "Valoare declarată"
+
+#: inc/admin/class-admin.php:504
+msgid "Cash on delivery"
+msgstr "Ramburs"
+
+#: inc/admin/class-admin.php:514
+msgid "Cash on delivery currency"
+msgstr "Monedă ramburs"
+
+#: inc/admin/class-admin.php:520
+msgid "Cell size"
+msgstr "Dimensiune celulă"
+
+#: inc/admin/class-admin.php:523
+msgid "Choose cell size (length/width/height) (mm)"
+msgstr "Alegeți dimensiunea celulei (lungime/lățime/înălțime) (mm)"
+
+#: inc/admin/class-admin.php:533
+msgid "Who pays"
+msgstr "Cine plătește"
+
+#: inc/admin/class-admin.php:536
+msgid "Merchant"
+msgstr "Comerciant"
+
+#: inc/admin/class-admin.php:537
+msgid "Sender"
+msgstr "Expeditor"
+
+#: inc/admin/class-admin.php:538
+msgid "Recipient"
+msgstr "Destinatar"
+
+#: inc/admin/class-admin.php:545
+msgid "Pickup from"
+msgstr "Ridicare de la"
+
+#: inc/admin/class-admin.php:551
+msgid "Declared value insurance"
+msgstr "Asigurare la valoarea declarată"
+
+#: inc/admin/class-admin.php:552
+msgid "Return documents"
+msgstr "Retur documente"
+
+#: inc/admin/class-admin.php:553
+msgid "Return of bank documents"
+msgstr "Retur documente bancare"
+
+#: inc/admin/class-admin.php:554
+msgid "Delivery confirmation"
+msgstr "Confirmarea livrării"
+
+#: inc/admin/class-admin.php:555
+msgid "Saturday delivery"
+msgstr "Livrare sâmbătă"
+
+#: inc/admin/class-admin.php:556
+msgid "Email notification"
+msgstr "Notificare email"
+
+#: inc/admin/class-admin.php:557
+msgid "SMS notification"
+msgstr "Notificare SMS"
+
+#: inc/admin/class-admin.php:558
+msgid "Merchant delivery confirmation"
+msgstr "Confirmare livrare comerciant"
+
+#: inc/admin/class-admin.php:559
+msgid "Open parcel on delivery"
+msgstr "Deschidere colet la livrare"
+
+#: inc/admin/class-admin.php:564
+msgid "Parcel details"
+msgstr "Detalii colet"
+
+#: inc/admin/class-admin.php:565
+msgid "Parcels count"
+msgstr "Numărul coletelor"
+
+#: inc/admin/class-admin.php:568
+msgid "Parcel type"
+msgstr "Tip colet"
+
+#: inc/admin/class-admin.php:569
+msgid "Parcel content"
+msgstr "Conținut colet"
+
+#: inc/admin/class-admin.php:570
+msgid "Weight"
+msgstr "Greutate"
+
+#: inc/admin/class-admin.php:571
+msgid "Length"
+msgstr "Lungime"
+
+#: inc/admin/class-admin.php:572
+msgid "Width"
+msgstr "Lăţime"
+
+#: inc/admin/class-admin.php:573
+msgid "Height"
+msgstr "Înălțime"
+
+#: inc/admin/class-admin.php:578
+msgid "Envelope"
+msgstr "Plic"
+
+#: inc/admin/class-admin.php:579
+msgid "Parcel"
+msgstr "Colet"
+
+#: inc/admin/class-admin.php:580
+msgid "Pallet"
+msgstr "Palet"
+
+#: inc/admin/class-admin.php:585
+msgid "Documents"
+msgstr "Documente"
+
+#: inc/admin/class-admin.php:586
+msgid "Standardized documents"
+msgstr "Tipizate"
+
+#: inc/admin/class-admin.php:587
+msgid "Fragile"
+msgstr "Fragile"
+
+#: inc/admin/class-admin.php:588
+msgid "General"
+msgstr "Generale"
+
+#: inc/admin/class-admin.php:605
+msgid "Add parcel"
+msgstr "Adăugare colet"
+
+#: inc/admin/class-admin.php:607
+msgid "Generate AWB"
+msgstr "Generare AWB"
+
+#: inc/admin/class-settingspage.php:45
+msgid "Posta Panduri"
+msgstr "Posta Panduri"
+
+#: inc/admin/class-settingspage.php:49
+#: inc/admin/class-settingspage.php:104
+#: inc/admin/class-settingspage.php:274
+msgid "General settings"
+msgstr "Setări generale"
+
+#: inc/admin/class-settingspage.php:52
+msgid "Pickup point settings"
+msgstr "Setări punct de ridicare"
+
+#: inc/admin/class-settingspage.php:55
+#: inc/admin/class-settingspage.php:151
+msgid "Delivery settings"
+msgstr "Setări livrare"
+
+#: inc/admin/class-settingspage.php:58
+#: inc/admin/class-settingspage.php:174
+msgid "Click&Collect settings"
+msgstr "Setări Click&Collect"
+
+#: inc/admin/class-settingspage.php:61
+msgid "Click&Collect list"
+msgstr "Lista Click&Collect"
+
+#: inc/admin/class-settingspage.php:71
+#: inc/admin/class-settingspage.php:73
+msgid "LivrariOnline.ro"
+msgstr "LivrariOnline.ro"
+
+#: inc/admin/class-settingspage.php:72
+msgid "Description"
+msgstr "Descriere"
+
+#: inc/admin/class-settingspage.php:74
+msgid "is a software as a service (SAAS) system that incorporates the latest concepts and technologies for an efficient management of the modern courier activity. The web platform for managing courier services and reimbursement payments that connects online stores in Romania with the most competitive courier service providers enrolled in the system. Dedicated to online store owners who want to manage and monitor in an automated, efficient and fast way the orders and courier logistics operations as well as the cash receipts for the orders on the site."
+msgstr "este un sistem software as a service (SAAS) ce înglobează cele mai noi concepte și tehnologii pentru un management eficient al activității de curierat modern. Platforma web de management a serviciilor de curierat și a plăților de tip ramburs care conectează magazinele online din România cu cei mai competitivi prestatori de servicii de curierat înrolați în sistem. Dedicată proprietarilor de magazine online care doresc să își gestioneze și să își monitorizeze într-un mod automatizat, eficient și rapid comenzile și operațiunile logistice de curierat precum și încasările ramburs pentru comenzile de pe site."
+
+#: inc/admin/class-settingspage.php:76
+msgid "Benefits"
+msgstr "Beneficii"
+
+#: inc/admin/class-settingspage.php:78
+msgid "Automatic, efficient and fast management of deliveries for all orders on site;"
+msgstr "Gestioneaza si monitorizeaza automatizat, eficient si rapid livrarile si incasarile ramburs pentru comenzile de pe site;"
+
+#: inc/admin/class-settingspage.php:79
+msgid "Super competitive prices from LivrariOnline partner couriers;"
+msgstr "Preturi super competitive de la curierii parteneri LivrariOnline;"
+
+#: inc/admin/class-settingspage.php:80
+msgid "Fast and free integration for the most popular e-commerce platforms;"
+msgstr "Integrare rapida si gratuita pentru cele mai populare platforme de e-commerce;"
+
+#: inc/admin/class-settingspage.php:81
+msgid "Click&Collect for SmartLockers and Postal Stations - alternative preset delivery point management service for online orders."
+msgstr "Click&Collect pentru SmartLockers si Statii Postale – serviciu de gestiune a livrarilor alternative la punct fix pentru comenzi online."
+
+#: inc/admin/class-settingspage.php:83
+msgid "LivrariOnline.ro system has 3 components:"
+msgstr "Sistemul LivrariOnline.ro are 3 componente:"
+
+#: inc/admin/class-settingspage.php:85
+msgid "Door to door delivery by courier;"
+msgstr "Livrare la usa prin curier;"
+
+#: inc/admin/class-settingspage.php:86
+msgid "Click&Collect Smartlocker - allows you to pick up online orders from the nearest Smartlocker;"
+msgstr "Click&Collect Pachetomat - permite ridicarea comenzilor online de la cel mai apropiat Pachetomat;"
+
+#: inc/admin/class-settingspage.php:87
+msgid "Click&Collect Counter - allows you to pick up online orders from the nearest pre-set pick-up point at the counter."
+msgstr "Click&Collect Ghiseu - permite ridicarea comenzilor online de la cel mai apropiat punct de ridicare pre-stabilit de la ghiseu."
+
+#: inc/admin/class-settingspage.php:95
+#: inc/admin/class-settingspage.php:121
+#: inc/admin/class-settingspage.php:144
+#: inc/admin/class-settingspage.php:167
+#: inc/admin/class-settingspage.php:190
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Nu ai drepturi suficiente pentru a accesa această pagină."
+
+#: inc/admin/class-settingspage.php:194
+msgid "Click&Collect delivery points list"
+msgstr "Lista de puncte de ridicare Click&Collect"
+
+#: inc/admin/class-settingspage.php:198
+msgid "Delivery point ID"
+msgstr "ID punct de ridicare"
+
+#: inc/admin/class-settingspage.php:199
+msgid "Type"
+msgstr "Tip"
+
+#: inc/admin/class-settingspage.php:200
+msgid "Name"
+msgstr "Denumire"
+
+#: inc/admin/class-settingspage.php:201
+msgid "State"
+msgstr "Județ"
+
+#: inc/admin/class-settingspage.php:202
+msgid "City"
+msgstr "Oraș"
+
+#: inc/admin/class-settingspage.php:203
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:416
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:422
+msgid "Schedule"
+msgstr "Program"
+
+#: inc/admin/class-settingspage.php:204
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:369
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:381
+msgid "Temperature"
+msgstr "Temperatură"
+
+#: inc/admin/class-settingspage.php:233
+msgid "For now there is no delivery point in your system. Please check that you copied the <b>ISSN URL</b> in the merchant account at <a href=\"https://comercianti.livrarionline.ro\" target=\"_blank\"><b>https://comercianti.livrarionline.ro</b></a>, <b>Settings</b> section, <b>Info API</b> menu to receive the delivery points. More information can be found in <b>General settings</b> menu of our plugin."
+msgstr "Pentru moment nu există nici un punct de livrare în sistemul dumneavoastră. Verificați dacă ați copiat <b>URL-ul ISSN</b> în contul de comerciant la <a href=\"https://comercianti.livrarionline.ro\" target=\"_blank\"><b>https://comercianti.livrarionline.ro</b></a>, secțiunea <b>Setări,</b> meniul <b>Info API</b> pentru a primi punctele de ridicare. Mai multe informații pot fi găsite în meniul <b>Setări generale</b> al plugin-ului nostru."
+
+#: inc/admin/class-settingspage.php:275
+msgid "Activate PostaPanduri plugin"
+msgstr "Activare plugin PostaPanduri"
+
+#: inc/admin/class-settingspage.php:276
+msgid "Merchant Login ID (f_login)"
+msgstr "ID comerciant (f_login)"
+
+#: inc/admin/class-settingspage.php:277
+msgid "Merchant RSA Key (rsakey)"
+msgstr "Cheie RSA comerciant (rsakey)"
+
+#: inc/admin/class-settingspage.php:278
+msgid "Pay cash on delivery to merchant"
+msgstr "Plătește ramburs la comerciant"
+
+#: inc/admin/class-settingspage.php:279
+msgid "Use Google Maps API"
+msgstr "Utilizează API Google Maps"
+
+#: inc/admin/class-settingspage.php:280
+msgid "Google Maps API key (used in the checkout process to show delivery points map)"
+msgstr "Cheia API Google Maps (utilizată în procesul de comandă pentru a afișa harta punctelor de ridicare)"
+
+#: inc/admin/class-settingspage.php:281
+msgid "Use Mapbox API"
+msgstr "Utilizează API Mapbox"
+
+#: inc/admin/class-settingspage.php:282
+msgid "Mapbox API key (used in the checkout process to show delivery points map)"
+msgstr "Cheia API Mapbox (utilizată în procesul de comandă pentru a afișa harta punctelor de ridicare)"
+
+#: inc/admin/class-settingspage.php:283
+msgid "ISSN - Instant Shipping Status Notification"
+msgstr "ISSN - Notificare Instantanee Stare Livrare"
+
+#: inc/admin/class-settingspage.php:284
+msgid "I deliver perishable products"
+msgstr "Livrez produse perisabile"
+
+#: inc/admin/class-settingspage.php:285
+msgid "Free shipping calculation method"
+msgstr "Metoda de calcul a transportului gratuit"
+
+#: inc/admin/class-settingspage.php:294
+msgid "Setting up picking points"
+msgstr "Configurarea punctelor de ridicare"
+
+#: inc/admin/class-settingspage.php:298
+msgid "Setting up courier services door to door PostaPanduri"
+msgstr "Configurarea serviciilor de livrare la ușă PostaPanduri"
+
+#: inc/admin/class-settingspage.php:302
+msgid "Setting up Click & Collect services"
+msgstr "Configurarea serviciilor Click&Collect"
+
+#: inc/admin/class-settingspage.php:304
+msgid "Show PostaRomana delivery points"
+msgstr "Arată punctele de ridicare PostaRomana"
+
+#: inc/admin/class-settingspage.php:317
+msgid "General settings have been successfully saved"
+msgstr "Setările generale s-au salvat cu succes"
+
+#: inc/admin/class-settingspage.php:325
+#, php-format
+msgid "%s field is mandatory"
+msgstr "Câmpul %s este obligatoriu"
+
+#: inc/admin/class-settingspage.php:348
+msgid "Pickup points settings have been successfully saved"
+msgstr "Setările punctelor de ridicare au fost salvate cu succes"
+
+#: inc/admin/class-settingspage.php:371
+msgid "Delivery settings have been successfully saved"
+msgstr "Setările de livrare au fost salvate cu succes"
+
+#: inc/admin/class-settingspage.php:394
+msgid "Click&Collect settings have been successfully saved"
+msgstr "Setările Click&Collect au fost salvate cu succes"
+
+#: inc/admin/class-settingspage.php:419
+msgid "Please obtain the settings from the <a href=\"https://comercianti.livrarionline.ro/comercianti/ListAPI\" target=\"_blank\"><b>merchant account</b></a>"
+msgstr "Vă rugăm să obțineți setările din <a href=\"https://comercianti.livrarionline.ro/comercianti/ListAPI\" target=\"_blank\"> <b>contul de comerciant</b></a>"
+
+#: inc/admin/class-settingspage.php:424
+msgid "The ISSN service has the following functionalities:"
+msgstr "Serviciul ISSN are următoarele funcționalități:"
+
+#: inc/admin/class-settingspage.php:426
+msgid "Notifies your store in real time about the change in delivery status and update the status of orders so that it reflects the current status of delivery"
+msgstr "Notifică în timp real magazinul Dvs cu privire la modificarea stării livrărilor și actualizează starea comenzilor astfel încât acesta să reflecte starea curentă a livrării"
+
+#: inc/admin/class-settingspage.php:427
+msgid "Notifies your store in real time about the new SmartLockers added to the PostaPanduri system and update the status of the existing SmartLockers (schedule, temperature, etc.)"
+msgstr "Notifică în timp real magazinul Dvs cu privire la noile Pachetomate adăugate în sistemul PostaPanduri și actualizează starea Pachetomatelor existente (orar, temperatură etc.)"
+
+#: inc/admin/class-settingspage.php:430
+#, php-format
+msgid "<b>INFO:</b> To set up ISSN URL please visit <a href=\"https://comercianti.livrarionline.ro\" target=\"_blank\"><b>https://comercianti.livrarionline.ro</b></a>, <b>Info API</b> section, <b>ISSN URL</b> field. Please fill <b>%s/wc-api/wc_postapanduri_issn</b> URL and choose <b>POST</b> for ISSN URL method. Check the statuses for which you want your website to be notified in the merchant account. Please check the same statuses below as in the merchant account."
+msgstr "<b>INFO:</b> Pentru a configura URL-ul ISSN, vizitați <a href=\"https://comercianti.livrarionline.ro\" target=\"_blank\"><b>https://comercianti.livrarionline.ro</b></a>, secțiunea <b>Info API,</b> câmpul <b>URL ISSN.</b> Vă rugăm să completați <b> %s/wc-api/wc_postapanduri_issn</b> URL și să alegeți <b>POST</b> pentru metodă URL ISSN. Bifați stările pentru care doriți ca site-ul dvs. să fie notificat în contul de comerciant. Vă rugăm să verificați aceleași stări de mai jos ca și în contul comerciantului."
+
+#: inc/admin/class-settingspage.php:433
+msgid "Set the delivery status for which you want the order status to be updated in your store."
+msgstr "Setați starea de livrare pentru care doriți ca starea comenzii să fie actualizată în magazinul dvs."
+
+#: inc/admin/class-settingspage.php:438
+msgid "Please define the pickup point(s)"
+msgstr "Vă rugăm să definiți punctul (punctele) de ridicare"
+
+#: inc/admin/class-settingspage.php:439
+msgid "The fields marked with <b>*</b> are mandatory. After adding a new pickup point you will be able to activate it and set it as default."
+msgstr "Câmpurile marcate cu <b>*</b> sunt obligatorii. După adăugarea unui nou punct de ridicare veți putea să-l activați și să-l setați ca implicit."
+
+#: inc/admin/class-settingspage.php:461
+#: inc/admin/class-settingspage.php:525
+msgid "Activate this pickup point"
+msgstr "Activarea acestui punct de ridicare"
+
+#: inc/admin/class-settingspage.php:465
+#: inc/admin/class-settingspage.php:529
+msgid "Pickup point name"
+msgstr "Nume punct de ridicare"
+
+#: inc/admin/class-settingspage.php:469
+#: inc/admin/class-settingspage.php:533
+msgid "Contact person last name"
+msgstr "Numele de familie al persoanei de contact"
+
+#: inc/admin/class-settingspage.php:473
+#: inc/admin/class-settingspage.php:537
+msgid "Contact person first name"
+msgstr "Prenumele persoanei de contact"
+
+#: inc/admin/class-settingspage.php:477
+#: inc/admin/class-settingspage.php:541
+msgid "Pickup point email"
+msgstr "E-mail punct de ridicare"
+
+#: inc/admin/class-settingspage.php:481
+#: inc/admin/class-settingspage.php:545
+msgid "Pickup point phone"
+msgstr "Telefon punct de ridicare"
+
+#: inc/admin/class-settingspage.php:485
+#: inc/admin/class-settingspage.php:549
+msgid "Pickup point mobile phone"
+msgstr "Telefon mobil punct de ridicare"
+
+#: inc/admin/class-settingspage.php:489
+#: inc/admin/class-settingspage.php:553
+msgid "Pickup address"
+msgstr "Adresă de ridicare"
+
+#: inc/admin/class-settingspage.php:493
+#: inc/admin/class-settingspage.php:557
+msgid "Pickup point state"
+msgstr "Județ punct de ridicare"
+
+#: inc/admin/class-settingspage.php:497
+#: inc/admin/class-settingspage.php:561
+msgid "Pickup point city"
+msgstr "Oraș punct de ridicare"
+
+#: inc/admin/class-settingspage.php:501
+#: inc/admin/class-settingspage.php:565
+msgid "Pickup point zipcode"
+msgstr "Cod poștal punct de ridicare"
+
+#: inc/admin/class-settingspage.php:505
+#: inc/admin/class-settingspage.php:569
+msgid "Default pickup point"
+msgstr "Punct de ridicare implicit"
+
+#: inc/admin/class-settingspage.php:509
+#: inc/admin/class-settingspage.php:574
+msgid "Delete pickup point"
+msgstr "Ștergere punct de ridicare"
+
+#: inc/admin/class-settingspage.php:582
+msgid "Add pickup point"
+msgstr "Adăugare punct de ridicare"
+
+#: inc/admin/class-settingspage.php:587
+#: inc/admin/class-settingspage.php:699
+msgid "Please obtain available shipping services from your <a href=\"https://comercianti.livrarionline.ro/comercianti/ListAPI\" target=\"_blank\"><b>merchant account</b></a>"
+msgstr "Vă rugăm să obțineți servicii de livrare disponibile din <a href=\"https://comercianti.livrarionline.ro/comercianti/ListAPI\" target=\"_blank\"> <b>contul dvs.</b></a>"
+
+#: inc/admin/class-settingspage.php:588
+#: inc/admin/class-settingspage.php:701
+msgid "The fields marked with <b>*</b> are mandatory. After adding a new shipping service you will be able to activate it."
+msgstr "Câmpurile marcate cu <b>*</b> sunt obligatorii. După adăugarea unui nou serviciu de livrare veți putea să îl activați."
+
+#: inc/admin/class-settingspage.php:599
+#: inc/admin/class-settingspage.php:648
+#: inc/admin/class-settingspage.php:714
+#: inc/admin/class-settingspage.php:763
+msgid "Activate this shipping service"
+msgstr "Activați acest serviciu de livrare"
+
+#: inc/admin/class-settingspage.php:603
+#: inc/admin/class-settingspage.php:652
+#: inc/admin/class-settingspage.php:718
+#: inc/admin/class-settingspage.php:767
+msgid "Service name"
+msgstr "Nume serviciu"
+
+#: inc/admin/class-settingspage.php:607
+#: inc/admin/class-settingspage.php:656
+#: inc/admin/class-settingspage.php:722
+#: inc/admin/class-settingspage.php:771
+msgid "Service ID"
+msgstr "ID-ul serviciului"
+
+#: inc/admin/class-settingspage.php:611
+#: inc/admin/class-settingspage.php:660
+#: inc/admin/class-settingspage.php:726
+#: inc/admin/class-settingspage.php:775
+msgid "Shipping company ID"
+msgstr "ID companie de curierat"
+
+#: inc/admin/class-settingspage.php:615
+#: inc/admin/class-settingspage.php:664
+#: inc/admin/class-settingspage.php:730
+#: inc/admin/class-settingspage.php:779
+msgid "Fixed price (shipping price estimation will not pe performed)"
+msgstr "Preț fix (estimarea prețului de livrare nu va fi efectuată)"
+
+#: inc/admin/class-settingspage.php:619
+#: inc/admin/class-settingspage.php:668
+#: inc/admin/class-settingspage.php:734
+#: inc/admin/class-settingspage.php:783
+msgid "Change shipping price (+ or -, value or percent relative to estimated shipping price)"
+msgstr "Modificare preț de livrare (+ sau -, valoare sau procent relativ la prețul de livrare estimat)"
+
+#: inc/admin/class-settingspage.php:627
+#: inc/admin/class-settingspage.php:676
+#: inc/admin/class-settingspage.php:742
+#: inc/admin/class-settingspage.php:791
+msgid "Value (RON)"
+msgstr "Valoare (RON)"
+
+#: inc/admin/class-settingspage.php:628
+#: inc/admin/class-settingspage.php:677
+#: inc/admin/class-settingspage.php:743
+#: inc/admin/class-settingspage.php:792
+msgid "Percent (%)"
+msgstr "Procent (%)"
+
+#: inc/admin/class-settingspage.php:633
+#: inc/admin/class-settingspage.php:682
+#: inc/admin/class-settingspage.php:748
+#: inc/admin/class-settingspage.php:797
+msgid "Free shipping for cart over"
+msgstr "Transport gratuit pentru coș de peste"
+
+#: inc/admin/class-settingspage.php:637
+#: inc/admin/class-settingspage.php:686
+#: inc/admin/class-settingspage.php:752
+#: inc/admin/class-settingspage.php:801
+msgid "Delete shipping service"
+msgstr "Ștergere serviciu de livrare"
+
+#: inc/admin/class-settingspage.php:694
+#: inc/admin/class-settingspage.php:809
+msgid "Add shipping service"
+msgstr "Adăugare serviciu de livrare"
+
+#: inc/admin/class-settingspage.php:700
+msgid "Click&Collect shipping service involves upfront order payment. For this reason, when the customer selects Click&Collect shipping service in the checkout process, <b>the Cash on delivery payment method will be deactivated</b>."
+msgstr "Serviciul de expediere Click&Collect implică plata în avans a comenzii. Din acest motiv, atunci când clientul selectează serviciul de livrare Click&Collect în procesul de comandă, <b>metoda de plată Ramburs va fi dezactivată</b>."
+
+#: inc/admin/class-settingspage.php:849
+msgid "By checking this option, the customer will not be able to select in checkout a SmartLocker whose cells have a temperature higher than 30&deg; C. The temperature of the SmartLocker is constantly monitored, and when the temperature inside the cells drops below 30&deg; C, they will be automatically reactivated"
+msgstr "Prin bifarea acestei opțiuni, clientul nu va putea selecta în procesul de comandă un Pachetomat ale cărui celule au o temperatură mai mare de 30° C. Temperatura Pachetomatului este monitorizată în mod constant, iar atunci când temperatura din interiorul celulelor scade sub 30° C, acestea vor fi reactivate automat"
+
+#: inc/admin/class-settingspage.php:880
+msgid "Cash"
+msgstr "Numerar"
+
+#: inc/admin/class-settingspage.php:880
+msgid "Bank"
+msgstr "Bancă"
+
+#: inc/admin/class-settingspage.php:892
+msgid "Order subtotal (default)"
+msgstr "Subtotal comandă (implicit)"
+
+#: inc/admin/class-settingspage.php:892
+msgid "Order subtotal including coupons"
+msgstr "Comandă subtotal, inclusiv cupoane"
+
+#: inc/admin/class-settingspage.php:907
+msgid ""
+"To obtain a Google Maps API key you need to visit <a target=\"_blank\" href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\"><b>this address</b></a> and click on <b>GET A KEY</b> button.<br />\n"
+"        Then, please enable <b>Google Static Maps API</b> <a target=\"_blank\" href=\"https://console.developers.google.com/apis/api/static_maps_backend\"><b>here.</b>"
+msgstr "Pentru a obține o cheie API Google Maps trebuie să vizitați <a target=\"_blank\" href=\"https://developers.google.com/maps/documentation/javascript/get-api-key\"><b>această adresă</b></a> și să faceți clic pe butonul GET <b>A KEY.</b><br />Apoi, vă rugăm să activați <b>Google Static Maps API</b> <a target=\"_blank\" href=\"https://console.developers.google.com/apis/api/static_maps_backend\"><b>aici.</b></a>"
+
+#: inc/admin/class-settingspage.php:917
+msgid "To obtain a Mapbox token you need to create an account <a target=\"_blank\" href=\"https://account.mapbox.com/auth/signup/\"><b>here</b></a> and then click on <b>Create a token</b> button."
+msgstr "Pentru a obține un token Mapbox trebuie să creați un cont <a target=\"_blank\" href=\"https://account.mapbox.com/auth/signup/\"><b>aici</b></a>, apoi să faceți clic pe <b>Create a token</b>."
+
+#: inc/core/class-init.php:228
+msgid "Settings"
+msgstr "Setări"
+
+#: inc/core/class-init.php:284
+msgid "PostaPanduri plugin requires WooCommerce to be installed and active"
+msgstr "Plugin-ul PostaPanduri necesită instalarea și activarea WooCommerce"
+
+#: inc/core/class-wc-postapanduri.php:38
+msgid "PostaPanduri - Assigned to courier"
+msgstr "PostaPanduri - Alocata curier"
+
+#: inc/core/class-wc-postapanduri.php:39
+msgid "PostaPanduri - Taken by courier from the merchant"
+msgstr "PostaPanduri - Preluata de curier de la comerciant"
+
+#: inc/core/class-wc-postapanduri.php:40
+msgid "PostaPanduri - The recipient was not found"
+msgstr "PostaPanduri - Destinatarul nu a fost gasit"
+
+#: inc/core/class-wc-postapanduri.php:41
+msgid "PostaPanduri - Delivered in Smart Locker"
+msgstr "PostaPanduri - Predata in Smart Locker"
+
+#: inc/core/class-wc-postapanduri.php:42
+msgid "PostaPanduri - Delivered to the recipient"
+msgstr "PostaPanduri - Livrata la destinatar"
+
+#: inc/core/class-wc-postapanduri.php:43
+msgid "PostaPanduri - Delivery delayed"
+msgstr "PostaPanduri - Livrare amanata"
+
+#: inc/core/class-wc-postapanduri.php:44
+msgid "PostaPanduri - Wrong destination"
+msgstr "PostaPanduri - Destinatie gresita"
+
+#: inc/core/class-wc-postapanduri.php:45
+msgid "PostaPanduri - Pending cancel"
+msgstr "PostaPanduri - In curs de anulare"
+
+#: inc/core/class-wc-postapanduri.php:46
+msgid "PostaPanduri - Canceled"
+msgstr "PostaPanduri - Anulata"
+
+#: inc/core/class-wc-postapanduri.php:47
+msgid "PostaPanduri - Return"
+msgstr "PostaPanduri - Retur"
+
+#: inc/core/class-wc-postapanduri.php:48
+msgid "PostaPanduri - Paid for on delivery"
+msgstr "PostaPanduri - Ramburs achitat"
+
+#: inc/core/class-wc-postapanduri.php:49
+msgid "PostaPanduri - Invoiced"
+msgstr "PostaPanduri - Facturata"
+
+#: inc/core/class-wc-postapanduri.php:50
+msgid "PostaPanduri - Completed"
+msgstr "PostaPanduri - Finalizata"
+
+#. Plugin Name of the plugin/theme
+#: inc/core/class-wc-postapanduri.php:54
+#: inc/core/class-wc-postapanduri.php:58
+msgid "PostaPanduri"
+msgstr "PostaPanduri"
+
+#: inc/core/class-wc-postapanduri.php:55
+msgid "PostaPanduri shipping module"
+msgstr "Modulul de livrare PostaPanduri"
+
+#: inc/core/class-wc-postapanduri.php:710
+#, php-format
+msgid " <span class=\"count\">(%s)</span>"
+msgid_plural " <span class=\"count\">(%s)</span>"
+msgstr[0] " <span class=“count”>(%s)</span>"
+msgstr[1] " <span class=“count”>(%s)</span>"
+msgstr[2] " <span class=“count”>(%s)</span>"
+
+#: inc/front/class-front.php:317
+#, php-format
+msgid "After the order is shipped, you can pick up your parcel from <b>%s - %s</b>. Address: %s, State %s, City: %s"
+msgstr "După expedierea comenzii, puteți ridica coletul de la <b> %s - %s </b>. Adresa: %s , Județ , %s Oraș:%s"
+
+#: inc/front/class-front.php:340
+msgid "You selected the pickup delivery method, but you did not select a pickup point"
+msgstr "Ați selectat metoda de livrare, dar nu ați selectat un punct de ridicare"
+
+#: inc/front/class-front.php:348
+msgid "Unfortunately we could not estimate the delivery price for this pickup location, please select another one"
+msgstr "Din păcate, nu am putut estima prețul de livrare pentru acest punct de ridicare, vă rugăm să selectaț altul"
+
+#: inc/front/class-front.php:389
+#, php-format
+msgid "AWB Tracking (%s)"
+msgstr "Urmărire AWB (%s)"
+
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:126
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:129
+#: inc/front/partials/plugin-postapanduri-map.php:33
+msgid "Choose county"
+msgstr "Alege județul"
+
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:351
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:504
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:354
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:531
+#: inc/front/partials/plugin-postapanduri-change-dp.php:21
+msgid "Change pickup point"
+msgstr "Modificare punct de ridicare"
+
+#: inc/front/partials/plugin-postapanduri-map.php:14
+msgid "No PostaPanduri delivery points"
+msgstr "Nu există puncte de ridicare PostaPanduri"
+
+#: inc/front/partials/plugin-postapanduri-map.php:26
+msgid "No Posta Romana delivery points"
+msgstr "Nu există puncte de ridicare Posta Romana"
+
+#: inc/front/partials/plugin-postapanduri-map.php:52
+msgid "See map"
+msgstr "Vezi harta"
+
+#. Plugin URI of the plugin/theme
+msgid "https://postapanduri.ro/"
+msgstr "https://postapanduri.ro/"
+
+#. Description of the plugin/theme
+msgid "Courier Services and Smartlocker pickpup. Clients who buy online and can opt to pick up the ordered packages from the nearest preset pickup point or to have the parcel delivered to their door."
+msgstr "Servicii de curierat și ridicare din Pachetomate. Clienții care cumpără online pot opta să ridice coletele comandate de la cel mai apropiat punct de ridicare presetat sau să li se livreze coletul la ușă."
+
+#. Author of the plugin/theme
+msgid "C Solution SRL"
+msgstr "C Solution SRL"
+
+#. Author URI of the plugin/theme
+msgid "https://www.c-solution.biz/"
+msgstr "https://www.c-solution.biz/"

@@ -1,0 +1,874 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: PostaPanduri Courier Services and Smartlocker pickpup\n"
+"POT-Creation-Date: 2021-09-21 12:21+0300\n"
+"PO-Revision-Date: 2021-01-11 17:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: postapanduri.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/admin/class-admin.php:264
+#, php-format
+msgid ""
+"The parcel was sent using <b>%s</b> service and received AWB no. <b>%s</b>"
+msgstr ""
+
+#: inc/admin/class-admin.php:331
+msgid "Tracking AWB"
+msgstr ""
+
+#: inc/admin/class-admin.php:441 inc/front/class-front.php:243
+#: inc/front/class-front.php:266 inc/front/class-front.php:312
+#: inc/front/partials/plugin-postapanduri-change-dp.php:32
+#: inc/front/partials/plugin-postapanduri-map.php:22
+msgid "Posta Romana"
+msgstr ""
+
+#: inc/admin/class-admin.php:443 inc/front/class-front.php:245
+#: inc/front/class-front.php:268 inc/front/class-front.php:314
+#: inc/front/partials/plugin-postapanduri-change-dp.php:34
+#: inc/front/partials/plugin-postapanduri-map.php:10
+msgid "PostaPanduri Smartlocker"
+msgstr ""
+
+#: inc/admin/class-admin.php:446
+msgid "Address"
+msgstr ""
+
+#: inc/admin/class-admin.php:449
+msgid "Delivery point information"
+msgstr ""
+
+#: inc/admin/class-admin.php:454
+msgid "Choose a shipping service"
+msgstr ""
+
+#: inc/admin/class-admin.php:460
+msgid "Delivery description"
+msgstr ""
+
+#: inc/admin/class-admin.php:464
+msgid "Sender reference"
+msgstr ""
+
+#: inc/admin/class-admin.php:465
+msgid "Order no."
+msgstr ""
+
+#: inc/admin/class-admin.php:468
+msgid "Declared value"
+msgstr ""
+
+#: inc/admin/class-admin.php:485
+msgid "Cash on delivery"
+msgstr ""
+
+#: inc/admin/class-admin.php:495
+msgid "Cash on delivery currency"
+msgstr ""
+
+#: inc/admin/class-admin.php:501
+msgid "Cell size"
+msgstr ""
+
+#: inc/admin/class-admin.php:504
+msgid "Choose cell size (length/width/height) (mm)"
+msgstr ""
+
+#: inc/admin/class-admin.php:514
+msgid "Who pays"
+msgstr ""
+
+#: inc/admin/class-admin.php:517
+msgid "Merchant"
+msgstr ""
+
+#: inc/admin/class-admin.php:518
+msgid "Sender"
+msgstr ""
+
+#: inc/admin/class-admin.php:519
+msgid "Recipient"
+msgstr ""
+
+#: inc/admin/class-admin.php:526
+msgid "Pickup from"
+msgstr ""
+
+#: inc/admin/class-admin.php:532
+msgid "Declared value insurance"
+msgstr ""
+
+#: inc/admin/class-admin.php:533
+msgid "Return documents"
+msgstr ""
+
+#: inc/admin/class-admin.php:534
+msgid "Return of bank documents"
+msgstr ""
+
+#: inc/admin/class-admin.php:535
+msgid "Delivery confirmation"
+msgstr ""
+
+#: inc/admin/class-admin.php:536
+msgid "Saturday delivery"
+msgstr ""
+
+#: inc/admin/class-admin.php:537
+msgid "Email notification"
+msgstr ""
+
+#: inc/admin/class-admin.php:538
+msgid "SMS notification"
+msgstr ""
+
+#: inc/admin/class-admin.php:539
+msgid "Merchant delivery confirmation"
+msgstr ""
+
+#: inc/admin/class-admin.php:540
+msgid "Open parcel on delivery"
+msgstr ""
+
+#: inc/admin/class-admin.php:545
+msgid "Parcel details"
+msgstr ""
+
+#: inc/admin/class-admin.php:546
+msgid "Parcels count"
+msgstr ""
+
+#: inc/admin/class-admin.php:549
+msgid "Parcel type"
+msgstr ""
+
+#: inc/admin/class-admin.php:550
+msgid "Parcel content"
+msgstr ""
+
+#: inc/admin/class-admin.php:551
+msgid "Weight"
+msgstr ""
+
+#: inc/admin/class-admin.php:552
+msgid "Length"
+msgstr ""
+
+#: inc/admin/class-admin.php:553
+msgid "Width"
+msgstr ""
+
+#: inc/admin/class-admin.php:554
+msgid "Height"
+msgstr ""
+
+#: inc/admin/class-admin.php:559
+msgid "Envelope"
+msgstr ""
+
+#: inc/admin/class-admin.php:560
+msgid "Parcel"
+msgstr ""
+
+#: inc/admin/class-admin.php:561
+msgid "Pallet"
+msgstr ""
+
+#: inc/admin/class-admin.php:566
+msgid "Documents"
+msgstr ""
+
+#: inc/admin/class-admin.php:567
+msgid "Standardized documents"
+msgstr ""
+
+#: inc/admin/class-admin.php:568
+msgid "Fragile"
+msgstr ""
+
+#: inc/admin/class-admin.php:569
+msgid "General"
+msgstr ""
+
+#: inc/admin/class-admin.php:586
+msgid "Add parcel"
+msgstr ""
+
+#: inc/admin/class-admin.php:588
+msgid "Generate AWB"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:45
+msgid "Posta Panduri"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:49 inc/admin/class-settingspage.php:104
+#: inc/admin/class-settingspage.php:274
+msgid "General settings"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:52
+msgid "Pickup point settings"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:55 inc/admin/class-settingspage.php:151
+msgid "Delivery settings"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:58 inc/admin/class-settingspage.php:174
+msgid "Click&Collect settings"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:61
+msgid "Click&Collect list"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:71 inc/admin/class-settingspage.php:73
+msgid "LivrariOnline.ro"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:72
+msgid "Description"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:74
+msgid ""
+"is a software as a service (SAAS) system that incorporates the latest "
+"concepts and technologies for an efficient management of the modern courier "
+"activity. The web platform for managing courier services and reimbursement "
+"payments that connects online stores in Romania with the most competitive "
+"courier service providers enrolled in the system. Dedicated to online store "
+"owners who want to manage and monitor in an automated, efficient and fast "
+"way the orders and courier logistics operations as well as the cash receipts "
+"for the orders on the site."
+msgstr ""
+
+#: inc/admin/class-settingspage.php:76
+msgid "Benefits"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:78
+msgid ""
+"Automatic, efficient and fast management of deliveries for all orders on "
+"site;"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:79
+msgid "Super competitive prices from LivrariOnline partner couriers;"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:80
+msgid "Fast and free integration for the most popular e-commerce platforms;"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:81
+msgid ""
+"Click&Collect for SmartLockers and Postal Stations - alternative preset "
+"delivery point management service for online orders."
+msgstr ""
+
+#: inc/admin/class-settingspage.php:83
+msgid "LivrariOnline.ro system has 3 components:"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:85
+msgid "Door to door delivery by courier;"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:86
+msgid ""
+"Click&Collect Smartlocker - allows you to pick up online orders from the "
+"nearest Smartlocker;"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:87
+msgid ""
+"Click&Collect Counter - allows you to pick up online orders from the nearest "
+"pre-set pick-up point at the counter."
+msgstr ""
+
+#: inc/admin/class-settingspage.php:95 inc/admin/class-settingspage.php:121
+#: inc/admin/class-settingspage.php:144 inc/admin/class-settingspage.php:167
+#: inc/admin/class-settingspage.php:190
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: inc/admin/class-settingspage.php:194
+msgid "Click&Collect delivery points list"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:198
+msgid "Delivery point ID"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:199
+msgid "Type"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:200
+msgid "Name"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:201
+msgid "State"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:202
+msgid "City"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:203
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:416
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:422
+msgid "Schedule"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:204
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:369
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:381
+msgid "Temperature"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:233
+msgid ""
+"For now there is no delivery point in your system. Please check that you "
+"copied the <b>ISSN URL</b> in the merchant account at <a href=\"https://"
+"comercianti.livrarionline.ro\" target=\"_blank\"><b>https://comercianti."
+"livrarionline.ro</b></a>, <b>Settings</b> section, <b>Info API</b> menu to "
+"receive the delivery points. More information can be found in <b>General "
+"settings</b> menu of our plugin."
+msgstr ""
+
+#: inc/admin/class-settingspage.php:275
+msgid "Activate PostaPanduri plugin"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:276
+msgid "Merchant Login ID (f_login)"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:277
+msgid "Merchant RSA Key (rsakey)"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:278
+msgid "Pay cash on delivery to merchant"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:279
+msgid "Use Google Maps API"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:280
+msgid ""
+"Google Maps API key (used in the checkout process to show delivery points "
+"map)"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:281
+msgid "Use Mapbox API"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:282
+msgid ""
+"Mapbox API key (used in the checkout process to show delivery points map)"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:283
+msgid "ISSN - Instant Shipping Status Notification"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:284
+msgid "I deliver perishable products"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:285
+msgid "Free shipping calculation method"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:294
+msgid "Setting up picking points"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:298
+msgid "Setting up courier services door to door PostaPanduri"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:302
+msgid "Setting up Click & Collect services"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:304
+msgid "Show PostaRomana delivery points"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:317
+msgid "General settings have been successfully saved"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:325
+#, php-format
+msgid "%s field is mandatory"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:348
+msgid "Pickup points settings have been successfully saved"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:371
+msgid "Delivery settings have been successfully saved"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:394
+msgid "Click&Collect settings have been successfully saved"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:419
+msgid ""
+"Please obtain the settings from the <a href=\"https://comercianti."
+"livrarionline.ro/comercianti/ListAPI\" target=\"_blank\"><b>merchant "
+"account</b></a>"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:424
+msgid "The ISSN service has the following functionalities:"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:426
+msgid ""
+"Notifies your store in real time about the change in delivery status and "
+"update the status of orders so that it reflects the current status of "
+"delivery"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:427
+msgid ""
+"Notifies your store in real time about the new SmartLockers added to the "
+"PostaPanduri system and update the status of the existing SmartLockers "
+"(schedule, temperature, etc.)"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:430
+#, php-format
+msgid ""
+"<b>INFO:</b> To set up ISSN URL please visit <a href=\"https://comercianti."
+"livrarionline.ro\" target=\"_blank\"><b>https://comercianti.livrarionline."
+"ro</b></a>, <b>Info API</b> section, <b>ISSN URL</b> field. Please fill <b>"
+"%s/wc-api/wc_postapanduri_issn</b> URL and choose <b>POST</b> for ISSN URL "
+"method. Check the statuses for which you want your website to be notified in "
+"the merchant account. Please check the same statuses below as in the "
+"merchant account."
+msgstr ""
+
+#: inc/admin/class-settingspage.php:433
+msgid ""
+"Set the delivery status for which you want the order status to be updated in "
+"your store."
+msgstr ""
+
+#: inc/admin/class-settingspage.php:438
+msgid "Please define the pickup point(s)"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:439
+msgid ""
+"The fields marked with <b>*</b> are mandatory. After adding a new pickup "
+"point you will be able to activate it and set it as default."
+msgstr ""
+
+#: inc/admin/class-settingspage.php:461 inc/admin/class-settingspage.php:525
+msgid "Activate this pickup point"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:465 inc/admin/class-settingspage.php:529
+msgid "Pickup point name"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:469 inc/admin/class-settingspage.php:533
+msgid "Contact person last name"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:473 inc/admin/class-settingspage.php:537
+msgid "Contact person first name"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:477 inc/admin/class-settingspage.php:541
+msgid "Pickup point email"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:481 inc/admin/class-settingspage.php:545
+msgid "Pickup point phone"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:485 inc/admin/class-settingspage.php:549
+msgid "Pickup point mobile phone"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:489 inc/admin/class-settingspage.php:553
+msgid "Pickup address"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:493 inc/admin/class-settingspage.php:557
+msgid "Pickup point state"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:497 inc/admin/class-settingspage.php:561
+msgid "Pickup point city"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:501 inc/admin/class-settingspage.php:565
+msgid "Pickup point zipcode"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:505 inc/admin/class-settingspage.php:569
+msgid "Default pickup point"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:509 inc/admin/class-settingspage.php:574
+msgid "Delete pickup point"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:582
+msgid "Add pickup point"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:587 inc/admin/class-settingspage.php:699
+msgid ""
+"Please obtain available shipping services from your <a href=\"https://"
+"comercianti.livrarionline.ro/comercianti/ListAPI\" target=\"_blank"
+"\"><b>merchant account</b></a>"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:588 inc/admin/class-settingspage.php:701
+msgid ""
+"The fields marked with <b>*</b> are mandatory. After adding a new shipping "
+"service you will be able to activate it."
+msgstr ""
+
+#: inc/admin/class-settingspage.php:599 inc/admin/class-settingspage.php:648
+#: inc/admin/class-settingspage.php:714 inc/admin/class-settingspage.php:763
+msgid "Activate this shipping service"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:603 inc/admin/class-settingspage.php:652
+#: inc/admin/class-settingspage.php:718 inc/admin/class-settingspage.php:767
+msgid "Service name"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:607 inc/admin/class-settingspage.php:656
+#: inc/admin/class-settingspage.php:722 inc/admin/class-settingspage.php:771
+msgid "Service ID"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:611 inc/admin/class-settingspage.php:660
+#: inc/admin/class-settingspage.php:726 inc/admin/class-settingspage.php:775
+msgid "Shipping company ID"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:615 inc/admin/class-settingspage.php:664
+#: inc/admin/class-settingspage.php:730 inc/admin/class-settingspage.php:779
+msgid "Fixed price (shipping price estimation will not pe performed)"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:619 inc/admin/class-settingspage.php:668
+#: inc/admin/class-settingspage.php:734 inc/admin/class-settingspage.php:783
+msgid ""
+"Change shipping price (+ or -, value or percent relative to estimated "
+"shipping price)"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:627 inc/admin/class-settingspage.php:676
+#: inc/admin/class-settingspage.php:742 inc/admin/class-settingspage.php:791
+msgid "Value (RON)"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:628 inc/admin/class-settingspage.php:677
+#: inc/admin/class-settingspage.php:743 inc/admin/class-settingspage.php:792
+msgid "Percent (%)"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:633 inc/admin/class-settingspage.php:682
+#: inc/admin/class-settingspage.php:748 inc/admin/class-settingspage.php:797
+msgid "Free shipping for cart over"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:637 inc/admin/class-settingspage.php:686
+#: inc/admin/class-settingspage.php:752 inc/admin/class-settingspage.php:801
+msgid "Delete shipping service"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:694 inc/admin/class-settingspage.php:809
+msgid "Add shipping service"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:700
+msgid ""
+"Click&Collect shipping service involves upfront order payment. For this "
+"reason, when the customer selects Click&Collect shipping service in the "
+"checkout process, <b>the Cash on delivery payment method will be "
+"deactivated</b>."
+msgstr ""
+
+#: inc/admin/class-settingspage.php:849
+msgid ""
+"By checking this option, the customer will not be able to select in checkout "
+"a SmartLocker whose cells have a temperature higher than 30&deg; C. The "
+"temperature of the SmartLocker is constantly monitored, and when the "
+"temperature inside the cells drops below 30&deg; C, they will be "
+"automatically reactivated"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:880
+msgid "Cash"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:880
+msgid "Bank"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:892
+msgid "Order subtotal (default)"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:892
+msgid "Order subtotal including coupons"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:907
+msgid ""
+"To obtain a Google Maps API key you need to visit <a target=\"_blank\" href="
+"\"https://developers.google.com/maps/documentation/javascript/get-api-key"
+"\"><b>this address</b></a> and click on <b>GET A KEY</b> button.<br />\n"
+"        Then, please enable <b>Google Static Maps API</b> <a target=\"_blank"
+"\" href=\"https://console.developers.google.com/apis/api/static_maps_backend"
+"\"><b>here.</b>"
+msgstr ""
+
+#: inc/admin/class-settingspage.php:917
+msgid ""
+"To obtain a Mapbox token you need to create an account <a target=\"_blank\" "
+"href=\"https://account.mapbox.com/auth/signup/\"><b>here</b></a> and then "
+"click on <b>Create a token</b> button."
+msgstr ""
+
+#: inc/core/class-init.php:213
+msgid "Settings"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:37
+msgid "PostaPanduri - Assigned to courier"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:38
+msgid "PostaPanduri - Taken by courier from the merchant"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:39
+msgid "PostaPanduri - The recipient was not found"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:40
+msgid "PostaPanduri - Delivered in Smart Locker"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:41
+msgid "PostaPanduri - Delivered to the recipient"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:42
+msgid "PostaPanduri - Delivery delayed"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:43
+msgid "PostaPanduri - Wrong destination"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:44
+msgid "PostaPanduri - Pending cancel"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:45
+msgid "PostaPanduri - Canceled"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:46
+msgid "PostaPanduri - Return"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:47
+msgid "PostaPanduri - Paid for on delivery"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:48
+msgid "PostaPanduri - Invoiced"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:49
+msgid "PostaPanduri - Completed"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: inc/core/class-wc-postapanduri.php:53 inc/core/class-wc-postapanduri.php:57
+msgid "PostaPanduri"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:54
+msgid "PostaPanduri shipping module"
+msgstr ""
+
+#: inc/core/class-wc-postapanduri.php:708
+#, php-format
+msgid " <span class=\"count\">(%s)</span>"
+msgid_plural " <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/front/class-front.php:317
+#, php-format
+msgid ""
+"After the order is shipped, you can pick up your parcel from <b>%s - %s</b>. "
+"Address: %s, State %s, City: %s"
+msgstr ""
+
+#: inc/front/class-front.php:340
+msgid ""
+"You selected the pickup delivery method, but you did not select a pickup "
+"point"
+msgstr ""
+
+#: inc/front/class-front.php:348
+msgid ""
+"Unfortunately we could not estimate the delivery price for this pickup "
+"location, please select another one"
+msgstr ""
+
+#: inc/front/class-front.php:389
+#, php-format
+msgid "AWB Tracking (%s)"
+msgstr ""
+
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:14
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:16
+msgid "Choose a pickup point"
+msgstr ""
+
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:17
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:19
+msgid "Close window"
+msgstr ""
+
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:21
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:23
+msgid "Confirm and set as favorite"
+msgstr ""
+
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:34
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:114
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:187
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:270
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:344
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:389
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:498
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:525
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:37
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:117
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:190
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:273
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:347
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:525
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:552
+msgid "Please wait..."
+msgstr ""
+
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:46
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:49
+msgid "Confirm pickup point"
+msgstr ""
+
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:126
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:129
+#: inc/front/partials/plugin-postapanduri-map.php:33
+msgid "Choose county"
+msgstr ""
+
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:202
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:205
+msgid "Choose city"
+msgstr ""
+
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:208
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:281
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:515
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:211
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:284
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:542
+msgid "Choose pickup point"
+msgstr ""
+
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:288
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:291
+msgid "Pickup point full"
+msgstr ""
+
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:351
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:504
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:354
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:531
+#: inc/front/partials/plugin-postapanduri-change-dp.php:21
+msgid "Change pickup point"
+msgstr ""
+
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:352
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:505
+#: inc/front/js/postapanduri-public-gmaps-ajax.js:518
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:355
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:532
+#: inc/front/js/postapanduri-public-mapbox-ajax.js:545
+msgid "The parcel will be delivered at"
+msgstr ""
+
+#: inc/front/partials/plugin-postapanduri-map.php:14
+msgid "No PostaPanduri delivery points"
+msgstr ""
+
+#: inc/front/partials/plugin-postapanduri-map.php:26
+msgid "No Posta Romana delivery points"
+msgstr ""
+
+#: inc/front/partials/plugin-postapanduri-map.php:52
+msgid "See map"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://postapanduri.ro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Courier Services and Smartlocker pickpup. Clients who buy online and can opt "
+"to pick up the ordered packages from the nearest preset pickup point or to "
+"have the parcel delivered to their door."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "C Solution SRL"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.c-solution.biz/"
+msgstr ""
